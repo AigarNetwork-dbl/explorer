@@ -217,9 +217,9 @@ export default class Home extends React.Component {
                 </div>
                 <div className="col-lg-2">
                     <div className="panel panel-default">
-                        <div className="panel-heading"><i className="fa fa-fire" aria-hidden="true"></i> Gas price</div>
+                        <div className="panel-heading"><i className="fa fa-fire" aria-hidden="true"></i> Total Supply</div>
                         <div className="panel-body text-center">
-                            <span className="statValue">{Number(this.state.systemStats.gasPrice).toFixed(2)} Gwei</span>
+                            <span className="statValue">{Number(this.state.systemStats.latestBlocks[this.state.systemStats.latestBlocks.length - 1].number + 1000000)} AGR</span>
                         </div>
                     </div>
                 </div>
