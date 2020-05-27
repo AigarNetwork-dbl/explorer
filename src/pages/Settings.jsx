@@ -190,6 +190,7 @@ export default class Settings extends React.Component {
                     </div>
                     </div>
                 </div>
+                </div>
                 <div className="col-md-12">
                     <div className="panel panel-default">
                         <div className="panel-heading">File GETH for download:</div>
@@ -206,7 +207,7 @@ export default class Settings extends React.Component {
                         </div>
                     </div>
 
-            </div>
+            
 
     }
 
